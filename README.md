@@ -21,6 +21,6 @@
 
       4.3. Capital Asset Pricing Model (CAPM)
 
-# Basic Financial Data
+# Python Script to Download Stock Data
 
 Historical stock prices (BLK, TSLA, NVDA, NFLX, PG) displayed via Python script
