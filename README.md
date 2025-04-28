@@ -3,7 +3,7 @@
 
 
 
-Methods of Building an Investment Portfolio
+# Methods of Building an Investment Portfolio
 
 1. Outline of Portfolio Theory / Construction of a Two-Stock Portfolio
 
@@ -20,3 +20,7 @@ Methods of Building an Investment Portfolio
       4.2. Multifactor Model
 
       4.3. Capital Asset Pricing Model (CAPM)
+
+# Basic Financial Data
+
+Historical stock prices (BLK, TSLA, NVDA, NFLX, PG) displayed via Python script
