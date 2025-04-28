@@ -1,0 +1,19 @@
+!pip install yfinance pandas
+
+import yfinance as yf
+import pandas as pd
+
+# Define stock tickers
+tickers = ['BLK', 'TSLA', 'NVDA', 'NFLX', 'PG']  # stocks displayed are sourced from S&P 500 ETF
+
+# Download data (you can modify the start and end dates as needed)
+data = yf.download(tickers, start='2023-01-01', end='2025-03-31')
+
+# Select 'Close' prices
+close_prices = data['Close']
+
+# Save to CSV
+close_prices.to_csv('/content/close_prices.csv')
+
+print("Data downloaded and saved as 'close_prices.csv'")
+
